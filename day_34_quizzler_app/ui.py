@@ -1,12 +1,14 @@
 from tkinter import *
 from quiz_brain import QuizBrain
 
+# constants
 THEME_COLOR = "#375362"
 FONT = ("Arial", 20, "italic")
 
 
 class QuizInterface:
-
+    
+    # initialize the quiz interface
     def __init__(self, quiz_bank: QuizBrain):
         self.quiz = quiz_bank
         self.window = Tk()
@@ -38,7 +40,8 @@ class QuizInterface:
 
         self.get_next_question()
         self.window.mainloop()
-
+    
+    # get the next question
     def get_next_question(self):
         self.canvas.config(bg="white")
         if self.quiz.still_has_questions():
@@ -49,14 +52,16 @@ class QuizInterface:
             self.canvas.itemconfig(self.question, text="You've reached the end of the quiz.")
             self.true_b.config(state="disabled")
             self.false_b.config(state="disabled")
-
+    
+    # check if the user's answer is correct
     def guess_true(self):
         self.give_feedback(self.quiz.check_answer("true"))
 
     def guess_false(self):
         is_right = self.quiz.check_answer("false")
         self.give_feedback(is_right)
-
+    
+    # give feedback to the user
     def give_feedback(self, is_right):
         if is_right:
             self.canvas.config(bg="green")
