@@ -28,17 +28,16 @@ The QuizInterface class uses the tkinter module to create a graphical user inter
 It displays the current question as text and provides two buttons for the user to select "True" or "False".
 After the user selects an answer, the program will provide feedback as to whether the answer was correct or not, and then move on to the next question.
 
-### How to Play
-
-When you run the main.py file, Quizzler will fetch 10 questions from the Open Trivia Database API and present them to the user.
-The user can answer each question by clicking on either the "True" or "False" button.
-
-
 ## USAGE
 
 Once the application is running, simply answer the true/false questions presented to you. 
 The application will provide immediate feedback on the correctness of each answer. 
 Once all questions have been answered, the final score will be displayed.
+
+### How to Play
+
+When you run the main.py file, Quizzler will fetch 10 questions from the Open Trivia Database API and present them to the user.
+The user can answer each question by clicking on either the "True" or "False" button.
 
 ## CREDITS
 
