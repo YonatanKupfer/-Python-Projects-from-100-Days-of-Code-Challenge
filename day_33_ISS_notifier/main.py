@@ -3,12 +3,10 @@ from datetime import datetime as dt
 import smtplib
 import time
 
-MY_EMAIL = "testyonatan100@gmail.com"
-MY_PASSWORD = "sbbztjscjvppigkf"
-
-
-MY_LAT = 32.110569
-MY_LNG = 35.036121
+MY_EMAIL = "your_email_address@gmail.com"
+MY_PASSWORD = "your_email_password"
+MY_LAT = 51.509865 # your latitude
+MY_LNG = -0.118092 # your longitude
 
 # function to check if the ISS is above you right now
 def is_above():
