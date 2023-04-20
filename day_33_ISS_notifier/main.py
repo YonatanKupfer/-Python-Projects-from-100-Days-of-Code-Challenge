@@ -54,7 +54,7 @@ while True:
             connection.starttls()
             connection.login(MY_EMAIL, MY_PASSWORD)
             connection.sendmail(from_addr=MY_EMAIL,
-                                to_addrs="yonatank50@gmail.com",
+                                to_addrs="your_email_address@gmail.com",
                                 msg="Subject:ISS is above you\n\nLook up!"
                                 )
 
