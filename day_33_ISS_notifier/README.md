@@ -1,4 +1,4 @@
-#ISS Tracker
+# ISS Tracker
 This is a Python script written as part of the "100 Days of Code" course that uses APIs to track the International Space Station (ISS) and sends an email notification when it is passing over the user's location during nighttime.
 
 ##Prerequisites
