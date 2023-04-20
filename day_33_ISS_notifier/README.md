@@ -4,19 +4,21 @@ This is a Python script written as part of the "100 Days of Code" course that us
 ## Prerequisites
 To run this script, you need to have Python 3 installed on your machine. You also need to install the requests and smtplib libraries using pip:
 
-pip install requests smtplib
+``pip install requests smtplib``
 
 ## Usage
 To use this script, you need to provide your email address and password as well as your location's latitude and longitude in the script's constants at the beginning of the code:
 
+```
 MY_EMAIL = "your_email_address@gmail.com"
 MY_PASSWORD = "your_email_password"
 MY_LAT = 51.509865 # your latitude
 MY_LNG = -0.118092 # your longitude
+```
 
 Then, run the script using the following command:
 
-python iss_tracker.py
+``python iss_tracker.py``
 
 The script will start tracking the ISS and sending email notifications when it is passing over your location during nighttime.
 
