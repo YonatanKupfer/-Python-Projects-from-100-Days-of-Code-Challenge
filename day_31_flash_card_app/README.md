@@ -26,4 +26,4 @@ pandas library
 I used a list from Wikipedia of the 1000 most common words in Spanish, and I did the translation using the translation function in Google Sheets. The list of words and their English translations are stored in a CSV file.
 
 ## Credits
-This project was completed as part of the "100 Days of Code" course on Udemy. The course provided a basic template for the application, which I then customized and added additional features to.
+This project was completed as part of the "100 Days of Code" course. The course provided the basis for the application, which I then customized and added additional features to.
