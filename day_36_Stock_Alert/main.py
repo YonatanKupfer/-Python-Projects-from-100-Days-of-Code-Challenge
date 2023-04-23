@@ -10,14 +10,14 @@ stocks = {
     "AMZN": "Amazon.com Inc",
 }
 
-MY_EMAIL = "testyonatan100@gmail.com"
-MY_PASSWORD = "sbbztjscjvppigkf"
+MY_EMAIL = YOUR_EMAIL
+MY_PASSWORD = YOUR_PASSWORD
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "WU4ZL6RPGBT94K3Q"
-NEWS_API_KEY = "185abd61fc27476d929668e8dec3e04d"
+STOCK_API_KEY = YOUT_STOCK_API_KEY
+NEWS_API_KEY = YOUR_NEWS_API_KEY
 
 # get_news function gets the news from the last day and returns a dictionary
 #  with the title as key and the description
@@ -52,13 +52,13 @@ def email_news(arrow, news, differ, symbol):
     msg = MIMEText(body.encode("utf-8"), 'plain', 'utf-8')
     msg["Subject"] = "Stock Alert"
     msg["From"] = MY_EMAIL
-    msg["To"] = "yonatank50@gmail.com"
+    msg["To"] = MY_EMAIL
 
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(MY_EMAIL, MY_PASSWORD)
         connection.sendmail(from_addr=MY_EMAIL,
-                            to_addrs="ykupfer@gmail.com",
+                            to_addrs=MY_EMAIL,
                             msg=msg.as_string()
                             )
 
