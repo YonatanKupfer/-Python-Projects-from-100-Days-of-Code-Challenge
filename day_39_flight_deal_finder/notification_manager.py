@@ -2,8 +2,8 @@ import smtplib
 from email.mime.text import MIMEText
 
 
-MY_EMAIL = "testyonatan100@gmail.com"
-MY_PASSWORD = "sbbztjscjvppigkf"
+MY_EMAIL = YOUR_EMAIL
+MY_PASSWORD = YOUR_PASSWORD
 
 
 class NotificationManager:
