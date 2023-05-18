@@ -21,21 +21,27 @@ Before running the program, ensure that you have the following prerequisites:
 ```
 pip install requests smtplib
 ```
-3. Open the main.py file and update the following variables:
+3.Obtain an API key for the Kiwi Tequila API by following these steps:
+
+* Visit the Kiwi Tequila API website.
+* Sign up for an account or log in if you already have one.
+* Go to your account settings or developer dashboard to generate an API key.
+* Copy the API key.
+4.  Open the main.py file and update the following variables:
 
 * ORG_CITY_IATA: Set the IATA code of your origin city.
 * MY_EMAIL: Set your Gmail email address.
 * MY_PASSWORD: Set the password for your Gmail account.
 
-4.Open the flight_search.py file and replace the TEQUILA_API_KEY variable with your own API key:
+5.Open the flight_search.py file and replace the TEQUILA_API_KEY variable with your own API key:
 ```
 TEQUILA_API_KEY = "YOUR_TEQUILA_API_KEY"
 ```
-5.  Run the main.py file to execute the flight price alert system:
+6.  Run the main.py file to execute the flight price alert system:
 ```
 python main.py
 ```
-The program will retrieve destination data from the API, update the destination codes, and search for flights. If a low-priced flight is found for a destination, an email notification will be sent to the specified email address.
+7. The program will retrieve destination data from the API, update the destination codes, and search for flights. If a low-priced flight is found for a destination, an email notification will be sent to the specified email address.
 
 ## Customization
 * To add more destinations or modify the existing ones, update the destination data in the API or spreadsheet accessed by the DataManager class.
