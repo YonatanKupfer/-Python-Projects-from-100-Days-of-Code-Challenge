@@ -9,9 +9,7 @@ This project is a price tracker script developed as part of the "100 Days of Cod
 4. [Dependencies](#dependencies)
 5. [How It Works](#how-it-works)
 6. [Important Notes](#important-notes)
-7. [Contributing](#contributing)
-8. [Contact](#contact)
-9. [License](#license)
+7. [Credits](#Credits)
 
 ## Introduction
 The Price Tracker is a Python script that uses web scraping to retrieve the price of a specific product from the AliExpress website. It then compares the price with a predefined threshold and sends an email notification to the user if the price drops below this threshold. This tool can be handy for those who want to keep track of price changes and take advantage of discounts on AliExpress.
