@@ -19,7 +19,7 @@ pandas library
 3. Navigate to the directory where you saved the code.
 4. Run the following command to start the application:
 
-``python flashcard.py``
+``python main.py``
 
 5. Practice your Spanish vocabulary!
 ## Data
