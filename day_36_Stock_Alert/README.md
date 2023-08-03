@@ -4,9 +4,7 @@ This is a Python application that sends an email alert when the stock price of c
 I created this application as part of my own learning process and as a personal project. It may not be suitable for production use without further modifications.
 
 ## Installation
-1. Clone the repository:
-
-```git clone https://github.com/YonatanKra/stock-alert.git```
+1. Copy the code and save it in a new file at your desired location.
 
 2. Install the required packages using pip:
 
