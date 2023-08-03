@@ -24,7 +24,7 @@ And make sure to download the appropriate Chrome WebDriver for your system: http
 
 ## How to Run
 
-1. Clone this repository to your local machine or download the script file (`cookie_clicker.py`).
+1. Clone this repository to your local machine or download the script file (`main.py`).
 2. Ensure you have installed the necessary dependencies as mentioned in the Dependencies section.
 3. Place the Chrome WebDriver executable in the same directory as the script file.
 4. Open a terminal or command prompt and navigate to the directory where the script is located.
