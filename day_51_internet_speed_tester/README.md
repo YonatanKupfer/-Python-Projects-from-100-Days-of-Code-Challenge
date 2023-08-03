@@ -9,11 +9,7 @@ This is a Python script for testing your internet speed using the [Speedtest.net
 
 ## Installation
 
-1. Clone the repository or download the ZIP file and extract it to your desired location.
-
-```bash
-git clone https://github.com/yourusername/internet-speed-tester.git
-```
+1. Copy the code and save it in a new file at your desired location.
 
 2. Install the required Python packages using pip.
 
