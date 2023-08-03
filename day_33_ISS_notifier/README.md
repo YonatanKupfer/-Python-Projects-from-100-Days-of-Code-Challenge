@@ -18,7 +18,7 @@ MY_LNG = -0.118092 # your longitude
 
 Then, run the script using the following command:
 
-``python iss_tracker.py``
+``python main.py``
 
 The script will start tracking the ISS and sending email notifications when it is passing over your location during nighttime.
 
