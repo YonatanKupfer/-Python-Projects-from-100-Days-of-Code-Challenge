@@ -32,11 +32,7 @@ To run the script, you need the following:
 
 ## Installation
 
-1. Clone the repository to your local machine:
-
-```
-git clone https://github.com/yourusername/yad2-scraper.git
-```
+1. Copy the code and save it in a new file at your desired location.
 
 2. Install the required Python libraries using pip:
 
