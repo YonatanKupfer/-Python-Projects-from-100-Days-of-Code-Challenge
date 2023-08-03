@@ -10,7 +10,7 @@ You will also need to install the tkinter module, which should come pre-installe
 
 Once you have Python and tkinter installed, you can run the project by executing the following command in your terminal or command prompt:
 
-``python pomodoro.py``
+``python main.py``
 
 This will open the Pomodoro Timer GUI, and you can start using it right away.
 
