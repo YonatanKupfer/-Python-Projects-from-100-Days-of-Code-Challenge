@@ -1,5 +1,3 @@
-Certainly! Here's a simple README file for your Tic Tac Toe script:
-
 # Tic Tac Toe Game
 
 This is a simple text-based implementation of the classic Tic Tac Toe game in Python. The game is played in the console, and players take turns making their moves until there is a winner or the board is filled, resulting in a tie.
