@@ -48,8 +48,12 @@ def main():
         print(f"It is {current_player}'s turn.")
         row = int(input("Enter row (1-3): ")) - 1
         col = int(input("Enter column (1-3): ")) - 1
-        if board[row][col] != ' ' or row < 0 or row > 2 or col < 0 or col > 2:
-            print("Invalid move! press enter and try again.")
+        if row < 0 or row > 2 or col < 0 or col > 2:
+            print("Invalid input! press enter to continue...")
+            input()
+            continue
+        if board[row][col] != ' ':
+            print("Cell already taken! press enter to continue...")
             input()
             continue
         board[row][col] = current_player
